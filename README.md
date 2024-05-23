@@ -7,13 +7,22 @@
 
 Machine learning in insurance claim analysis involves employing algorithms to analyze claim data. These algorithms detect fraudulent claims by identifying irregular patterns and behaviors. They also assess risk levels associated with claims, predict claim severity, and estimate claim frequency based on historical data and relevant factors. By leveraging machine learning, insurers can make data-driven decisions, improving efficiency, reducing costs, and effectively managing risk. This enables insurers to streamline the claims process, detect fraudulent activities, and allocate resources more efficiently, ultimately benefiting both insurance companies and policyholders.
 
-**Tools:-** Excel,Python
+ ## Requirements
 
-[Datasets Used](https://docs.google.com/spreadsheets/d/1Yp_rcOS2TbVn-wHUIsCeCzkeDP7MIPLP/edit?usp=sharing&ouid=102868121048017441192&rtpof=true&sd=true )
+- Python 3
 
-[Python Script (Code)](cyber_security.ipynb)
+- Libraries: NumPy, pandas, Sklearn, etc.
 
-[Ppt presentation](sql_prjct.pptx)
+- Jupyter Lab
+
+[Datasets Used]
+[Claims1.csv]https://github.com/surajbisht06/Capstone_project_fraudelent-Analysis/blob/d3ddab4c8bf647d2860dd90e120689215e7fb80e/Claims1%20(1).csv
+
+https://github.com/surajbisht06/Capstone_project_fraudelent-Analysis/blob/d3ddab4c8bf647d2860dd90e120689215e7fb80e/cust_demographics%20(1).xlsx
+
+[Python Script (Code)][(Capstone Project_Insurance Claims (1).ipynb)]https://github.com/surajbisht06/Capstone_project_fraudelent-Analysis/blob/d3ddab4c8bf647d2860dd90e120689215e7fb80e/Capstone%20Project_fraudulent%20(2).ipynb
+
+[Ppt presentation]([Capstone project ppt.pptx]https://github.com/surajbisht06/Capstone_project_fraudelent-Analysis/blob/d3ddab4c8bf647d2860dd90e120689215e7fb80e/Capstone%20project%20ppt.pptx
 
 ### Features 
 
@@ -22,3 +31,4 @@ Machine learning in insurance claim analysis involves employing algorithms to an
 - Supervised learning: Train classification models to classify transactions as fraudulent or legitimate.
   
 - Model evaluation: Assess the performance of the models using relevant metrics such as precision, recall, and F1-score.
+
