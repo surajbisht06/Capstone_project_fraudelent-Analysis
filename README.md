@@ -32,3 +32,25 @@ https://github.com/surajbisht06/Capstone_project_fraudelent-Analysis/blob/d3ddab
   
 - Model evaluation: Assess the performance of the models using relevant metrics such as precision, recall, and F1-score.
 
+##### Compariosion of All The Accuracy of Each Model
+
+```py
+#Create a bar graph for knn, decision tree, random forest, and logistic regression
+models = ['LogisticRegression', 'DecisionTreeClassifier','RandomForestClassifier', 'KNeighborsClassifier', 'GaussianNB',] 
+accuracy_values = [LogisticRegression_Train_Accuracy, DecisionTreeClassifier_Train_Accuracy,RandomForestClassifier_Train_Accuracy, KNeighborsClassifier_Train_Accuracy, GaussianNB_Train_Accuracy] 
+plt.figure(figsize=(18, 5))
+# # Plot the bar graph
+bars = plt.bar (models, accuracy_values, color=['yellow', 'silver', 'red', 'orange','pink'])
+#Add accuracy values on top of each bar
+plt.bar_label(bars, labels=[f"{acc:.2f}" for acc in accuracy_values])
+#Add Labels and title
+plt.xlabel('Models')
+plt.ylabel('Accuracy')
+plt.title('Accuracy Comparison for Different Models')
+#Show the plot
+plt.show()
+```
+
+###### Result:
+![image](https://github.com/surajbisht06/Capstone_project_fraudelent-Analysis/assets/158066824/604f57c5-ca35-41a8-9bd0-1255308e8852)
+
